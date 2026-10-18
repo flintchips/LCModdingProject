@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1419872764, guid: 9708d15d6a8ee4845ace9be3a2bd936a, type: 3}
+  m_Name: TestingMoonDefinition
+  m_EditorClassIdentifier: 
+  _configEntries: []
+  _tags: []
+  <Key>k__BackingField:
+    _namespace: flintchips_testing
+    _key: testingtwo
+  <Level>k__BackingField: {fileID: 11400000, guid: 1c3937fa0ab4a1747990bdbe48f94fad,
+    type: 2}
+  _scenes:
+  - Scene:
+      _assetGUID: aa7ad6680147ee54dbd4027563297de3
+      _scenePath: Assets/LethalCompany/Mods/plugins/TestingMod/Content/Moons/TestingMoon/TestingMoon.unity
+      _bundleName: testingmoonscene
+    Key:
+      _namespace: flintchips_testing
+      _key: testingmoon
+    <ShipLandingOverrideAnimation>k__BackingField: {fileID: 0}
+    <ShipTakeoffOverrideAnimation>k__BackingField: {fileID: 0}
+    <BaseWeight>k__BackingField: 0
+    <WeatherSpawnWeightsConfig>k__BackingField: []
+    <GenerateWeightsConfig>k__BackingField: 0
+  <TerminalPredicate>k__BackingField: {fileID: 0}
+  <PricingStrategy>k__BackingField: {fileID: 0}
+  <Cost>k__BackingField: 0
+  <OutsideEnemiesSpawnProbabilityRange>k__BackingField: 3
+  <GenerateEnemyPowerCountConfigs>k__BackingField: 1
+  <GenerateEnemySpawnCurveConfigs>k__BackingField: 1
+  <GenerateEnemySpawnProbabilityRangeConfigs>k__BackingField: 1
+  <GenerateMinMaxScrapConfig>k__BackingField: 1
+  <GenerateTimeConfig>k__BackingField: 1
+  <GenerateCostConfig>k__BackingField: 1
+  <GenerateDisableUnlockConfig>k__BackingField: 1
+  <GenerateDisablePricingStrategyConfig>k__BackingField: 1
