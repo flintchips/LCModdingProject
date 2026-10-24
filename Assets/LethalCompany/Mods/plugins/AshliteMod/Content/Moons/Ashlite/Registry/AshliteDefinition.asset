@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1419872764, guid: 9708d15d6a8ee4845ace9be3a2bd936a, type: 3}
+  m_Name: AshliteDefinition
+  m_EditorClassIdentifier: 
+  _configEntries: []
+  _tags: []
+  <Key>k__BackingField:
+    _namespace: flintchips_ashlite
+    _key: ashlite
+  <Level>k__BackingField: {fileID: 11400000, guid: 43411526fa1719349abdac4252c10dd3,
+    type: 2}
+  _scenes:
+  - Scene:
+      _assetGUID: e339a01572b9cc44a8b825c67fc17dc5
+      _scenePath: Assets/LethalCompany/Mods/plugins/AshliteMod/Content/Moons/Ashlite/Ashlite.unity
+      _bundleName: ashlitescene
+    Key:
+      _namespace: flintchips_ashlite
+      _key: ashlite
+    <ShipLandingOverrideAnimation>k__BackingField: {fileID: 0}
+    <ShipTakeoffOverrideAnimation>k__BackingField: {fileID: 0}
+    <BaseWeight>k__BackingField: 0
+    <WeatherSpawnWeightsConfig>k__BackingField: []
+    <GenerateWeightsConfig>k__BackingField: 0
+  <TerminalPredicate>k__BackingField: {fileID: 0}
+  <PricingStrategy>k__BackingField: {fileID: 0}
+  <Cost>k__BackingField: 0
+  <OutsideEnemiesSpawnProbabilityRange>k__BackingField: 3
+  <GenerateEnemyPowerCountConfigs>k__BackingField: 1
+  <GenerateEnemySpawnCurveConfigs>k__BackingField: 1
+  <GenerateEnemySpawnProbabilityRangeConfigs>k__BackingField: 1
+  <GenerateMinMaxScrapConfig>k__BackingField: 1
+  <GenerateTimeConfig>k__BackingField: 1
+  <GenerateCostConfig>k__BackingField: 1
+  <GenerateDisableUnlockConfig>k__BackingField: 1
+  <GenerateDisablePricingStrategyConfig>k__BackingField: 1
