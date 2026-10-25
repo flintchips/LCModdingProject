@@ -45,18 +45,18 @@ MonoBehaviour:
     weatherVariableColor: {r: 0, g: 0, b: 0, a: 1}
   - weatherType: 3
     weatherVariable: 5
-    weatherVariable2: 18
+    weatherVariable2: 10
     weatherVariableColor: {r: 0.7490196, g: 0.4862745, b: 0.34901962, a: 1}
   overrideWeather: 0
   overrideWeatherType: 0
   currentWeather: 0
-  factorySizeMultiplier: 1.5
+  factorySizeMultiplier: 1.25
   dungeonFlowTypes:
   - id: 0
     rarity: 4
     overrideLevelAmbience: {fileID: 0}
   - id: 1
-    rarity: 64
+    rarity: 193
     overrideLevelAmbience: {fileID: 0}
   - id: 4
     rarity: 300
@@ -182,28 +182,26 @@ MonoBehaviour:
   - spawnableItem: {fileID: 11400000, guid: 147213cab39c6a04f853827dc2990e08, type: 2}
     rarity: 43
   minScrap: 28
-  maxScrap: 45
+  maxScrap: 32
   minTotalScrapValue: 300
   maxTotalScrapValue: 700
   levelAmbienceClips: {fileID: 11400000, guid: 36c41e89fb553c94e9eff57d74971aa3, type: 2}
-  maxEnemyPowerCount: 13
-  maxOutsideEnemyPowerCount: 13
+  maxEnemyPowerCount: 8
+  maxOutsideEnemyPowerCount: 9
   maxDaytimeEnemyPowerCount: 20
   maxInsideDiversityPowerCount: 100
   maxOutsideDiversityPowerCount: 100
   Enemies:
   - enemyType: {fileID: 11400000, guid: a465ad5d7ce9f8f49beaf28a73338bb8, type: 2}
-    rarity: 28
+    rarity: 17
   - enemyType: {fileID: 11400000, guid: a84cbb4bd79d7414fb392f392d6a32fb, type: 2}
     rarity: 59
   - enemyType: {fileID: 11400000, guid: 4df2c82c3fbca7d4b85f99af0e82c7f7, type: 2}
-    rarity: 54
+    rarity: 40
   - enemyType: {fileID: 11400000, guid: ad0dfb465652b1d40bbfa116b7fcbb97, type: 2}
     rarity: 20
   - enemyType: {fileID: 11400000, guid: 46a72060e77347a409e595910b934586, type: 2}
     rarity: 62
-  - enemyType: {fileID: 11400000, guid: e47d8557dfb462141b061e7b602705ae, type: 2}
-    rarity: 44
   - enemyType: {fileID: 11400000, guid: c80b194e3172f444baf6b7eb631c9140, type: 2}
     rarity: 54
   - enemyType: {fileID: 11400000, guid: 501d470834553cd47bd0bf3aec5e1f00, type: 2}
@@ -216,10 +214,16 @@ MonoBehaviour:
     rarity: 71
   - enemyType: {fileID: 11400000, guid: 7afb4958b8d2af54da3a7211fd57b17a, type: 2}
     rarity: 32
+  - enemyType: {fileID: 11400000, guid: d0fb822c6f02c2e42b65b78916147816, type: 2}
+    rarity: 19
+  - enemyType: {fileID: 11400000, guid: 3ff184bfa5cc33546ac1f77fd7d84d69, type: 2}
+    rarity: 21
   specialEnemyRarity:
     overrideEnemy: {fileID: 0}
     percentageChance: 0
-  OutsideEnemies: []
+  OutsideEnemies:
+  - enemyType: {fileID: 11400000, guid: 7f18b1cb57395a94a9a2e87887d7478b, type: 2}
+    rarity: 30
   DaytimeEnemies: []
   enemySpawnChanceThroughoutDay:
     serializedVersion: 2
