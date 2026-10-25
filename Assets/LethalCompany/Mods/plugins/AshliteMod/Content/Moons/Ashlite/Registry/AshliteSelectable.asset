@@ -186,8 +186,8 @@ MonoBehaviour:
   minTotalScrapValue: 300
   maxTotalScrapValue: 700
   levelAmbienceClips: {fileID: 11400000, guid: 36c41e89fb553c94e9eff57d74971aa3, type: 2}
-  maxEnemyPowerCount: 8
-  maxOutsideEnemyPowerCount: 9
+  maxEnemyPowerCount: 10
+  maxOutsideEnemyPowerCount: 7
   maxDaytimeEnemyPowerCount: 20
   maxInsideDiversityPowerCount: 100
   maxOutsideDiversityPowerCount: 100
@@ -223,7 +223,13 @@ MonoBehaviour:
     percentageChance: 0
   OutsideEnemies:
   - enemyType: {fileID: 11400000, guid: 7f18b1cb57395a94a9a2e87887d7478b, type: 2}
-    rarity: 30
+    rarity: 82
+  - enemyType: {fileID: 11400000, guid: e9d487994aaeb744781699e27bf486d2, type: 2}
+    rarity: 95
+  - enemyType: {fileID: 11400000, guid: 3288668029a59b840905d333385921cf, type: 2}
+    rarity: 18
+  - enemyType: {fileID: 11400000, guid: f0a6a904f9e4b8a4db349a4ea258e6db, type: 2}
+    rarity: 9
   DaytimeEnemies: []
   enemySpawnChanceThroughoutDay:
     serializedVersion: 2
@@ -271,17 +277,17 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -0.00000077369623
-      value: -2.8875
+      time: -0.003350078
+      value: -3.0467408
       inSlope: Infinity
-      outSlope: -1.0600616
-      tangentMode: 0
+      outSlope: 6.6555448
+      tangentMode: 65
       weightedMode: 3
       inWeight: 0
       outWeight: 0.14093608
     - serializedVersion: 3
-      time: 0.5448442
-      value: -0.02099245
+      time: 0.50630915
+      value: 0.3453189
       inSlope: 9.172262
       outSlope: 9.172262
       tangentMode: 0
@@ -292,12 +298,12 @@ MonoBehaviour:
       time: 1.0052626
       value: 5.3594007
       inSlope: 16.256857
-      outSlope: 11.374388
+      outSlope: 16.256857
       tangentMode: 0
       weightedMode: 3
       inWeight: 0.25347674
       outWeight: 0.48315445
-    m_PreInfinity: 2
+    m_PreInfinity: 0
     m_PostInfinity: 2
     m_RotationOrder: 4
   daytimeEnemySpawnChanceThroughDay:
