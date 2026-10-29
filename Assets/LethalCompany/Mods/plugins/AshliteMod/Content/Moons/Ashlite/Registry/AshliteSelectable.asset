@@ -64,7 +64,7 @@ MonoBehaviour:
       type: 2}
   spawnableMapObjects: []
   indoorMapHazards:
-  - hazardType: {fileID: 11400000, guid: 6f986af1a3a3b8940879c8604683ab35, type: 2}
+  - hazardType: {fileID: 11400000, guid: 82375f737da2e244088577aa519acac6, type: 2}
     numberToSpawn:
       serializedVersion: 2
       m_Curve:
@@ -89,6 +89,49 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 0.90526056
         value: 13.727276
+        inSlope: 24.65465
+        outSlope: 24.65465
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.34066787
+        outWeight: 0.6774299
+      - serializedVersion: 3
+        time: 1.0002282
+        value: 35
+        inSlope: 528.32587
+        outSlope: 528.32587
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.30117312
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - hazardType: {fileID: 11400000, guid: 4c81f922eee925340b6ac3ae330f3a7e, type: 2}
+    numberToSpawn:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.6912956
+        outSlope: 1.6912956
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.27726084
+      - serializedVersion: 3
+        time: 0.17395276
+        value: 2.4789648
+        inSlope: 14.097417
+        outSlope: 14.097417
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.16567203
+        outWeight: 0.5038415
+      - serializedVersion: 3
+        time: 0.95695734
+        value: 11.767803
         inSlope: 24.65465
         outSlope: 24.65465
         tangentMode: 0
@@ -192,44 +235,44 @@ MonoBehaviour:
   maxInsideDiversityPowerCount: 100
   maxOutsideDiversityPowerCount: 100
   Enemies:
-  - enemyType: {fileID: 11400000, guid: a465ad5d7ce9f8f49beaf28a73338bb8, type: 2}
+  - enemyType: {fileID: 11400000, guid: f2220cc0321938342b4327d1f40b98ce, type: 2}
     rarity: 17
-  - enemyType: {fileID: 11400000, guid: a84cbb4bd79d7414fb392f392d6a32fb, type: 2}
+  - enemyType: {fileID: 11400000, guid: a6eff09d8cdffe8448edc17b0e84c076, type: 2}
     rarity: 59
-  - enemyType: {fileID: 11400000, guid: 4df2c82c3fbca7d4b85f99af0e82c7f7, type: 2}
+  - enemyType: {fileID: 11400000, guid: 52ec00b2f3e0af646b951c7774108a34, type: 2}
     rarity: 40
-  - enemyType: {fileID: 11400000, guid: ad0dfb465652b1d40bbfa116b7fcbb97, type: 2}
+  - enemyType: {fileID: 11400000, guid: aeb717b61eb3d3641a1f9587cfb64115, type: 2}
     rarity: 20
-  - enemyType: {fileID: 11400000, guid: 46a72060e77347a409e595910b934586, type: 2}
+  - enemyType: {fileID: 11400000, guid: 3805d5ad7546ce24f8f9f52627520708, type: 2}
     rarity: 62
-  - enemyType: {fileID: 11400000, guid: c80b194e3172f444baf6b7eb631c9140, type: 2}
-    rarity: 54
-  - enemyType: {fileID: 11400000, guid: 501d470834553cd47bd0bf3aec5e1f00, type: 2}
+  - enemyType: {fileID: 11400000, guid: 8c67f91ee6cf175418bb1430bfcd0b8c, type: 2}
+    rarity: 69
+  - enemyType: {fileID: 11400000, guid: f63acbbd95b9f544eb2f96398b1557f9, type: 2}
     rarity: 38
-  - enemyType: {fileID: 11400000, guid: 0b709ff73d8e13043be60a9f3b230d6f, type: 2}
-    rarity: 56
-  - enemyType: {fileID: 11400000, guid: 5d2837fd83203534891d6a2364a03dcb, type: 2}
+  - enemyType: {fileID: 11400000, guid: 15aa43772d2fc2e49bfa0160f42bacc3, type: 2}
+    rarity: 46
+  - enemyType: {fileID: 11400000, guid: c2341fd88a2a98744bc3f96ff67d0f96, type: 2}
     rarity: 16
   - enemyType: {fileID: 11400000, guid: 9aa6928db709b9b4cbf6c6fc5be8795a, type: 2}
-    rarity: 71
-  - enemyType: {fileID: 11400000, guid: 7afb4958b8d2af54da3a7211fd57b17a, type: 2}
+    rarity: 39
+  - enemyType: {fileID: 11400000, guid: a3728f351859c524aa4202320586e9ec, type: 2}
     rarity: 32
-  - enemyType: {fileID: 11400000, guid: d0fb822c6f02c2e42b65b78916147816, type: 2}
+  - enemyType: {fileID: 11400000, guid: ad3b25e70323b4e47a8f03833493f613, type: 2}
     rarity: 19
-  - enemyType: {fileID: 11400000, guid: 3ff184bfa5cc33546ac1f77fd7d84d69, type: 2}
+  - enemyType: {fileID: 11400000, guid: 2ba40bb0eb340504cabd0f78a7cb1dbe, type: 2}
     rarity: 21
   specialEnemyRarity:
     overrideEnemy: {fileID: 0}
     percentageChance: 0
   OutsideEnemies:
-  - enemyType: {fileID: 11400000, guid: 7f18b1cb57395a94a9a2e87887d7478b, type: 2}
+  - enemyType: {fileID: 11400000, guid: 4e7e251a82fd3cf43a06af9f4d0b9a07, type: 2}
     rarity: 82
-  - enemyType: {fileID: 11400000, guid: e9d487994aaeb744781699e27bf486d2, type: 2}
+  - enemyType: {fileID: 11400000, guid: ca4aa217f8ef2ef4dbfb08cd2e2ac32b, type: 2}
     rarity: 95
-  - enemyType: {fileID: 11400000, guid: 3288668029a59b840905d333385921cf, type: 2}
-    rarity: 18
-  - enemyType: {fileID: 11400000, guid: f0a6a904f9e4b8a4db349a4ea258e6db, type: 2}
-    rarity: 9
+  - enemyType: {fileID: 11400000, guid: 94891c49afe752743a70df5183567168, type: 2}
+    rarity: 42
+  - enemyType: {fileID: 11400000, guid: 3d8fe14fa9ce5264b9633ed3ffc12210, type: 2}
+    rarity: 42
   DaytimeEnemies: []
   enemySpawnChanceThroughoutDay:
     serializedVersion: 2
@@ -280,28 +323,28 @@ MonoBehaviour:
       time: -0.003350078
       value: -3.0467408
       inSlope: Infinity
-      outSlope: 6.6555448
+      outSlope: 14.102936
       tangentMode: 65
       weightedMode: 3
       inWeight: 0
       outWeight: 0.14093608
     - serializedVersion: 3
-      time: 0.50630915
-      value: 0.3453189
-      inSlope: 9.172262
-      outSlope: 9.172262
+      time: 0.2222118
+      value: 0.13434383
+      inSlope: 51.306988
+      outSlope: 51.306988
       tangentMode: 0
       weightedMode: 3
       inWeight: 0.33333334
-      outWeight: 0.71965504
+      outWeight: 0.12119522
     - serializedVersion: 3
       time: 1.0052626
       value: 5.3594007
-      inSlope: 16.256857
-      outSlope: 16.256857
+      inSlope: 13.614196
+      outSlope: 13.614196
       tangentMode: 0
       weightedMode: 3
-      inWeight: 0.25347674
+      inWeight: 0.25117314
       outWeight: 0.48315445
     m_PreInfinity: 0
     m_PostInfinity: 2

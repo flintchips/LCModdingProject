@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1047772204, guid: 9708d15d6a8ee4845ace9be3a2bd936a, type: 3}
+  m_Name: AshliteSurface
+  m_EditorClassIdentifier: 
+  _configEntries: []
+  _tags: []
+  <Key>k__BackingField:
+    _namespace: flintchips_ashlite
+    _key: 
+  <Surface>k__BackingField:
+    surfaceTag: 
+    clips: []
+    hitSurfaceSFX: {fileID: 0}
+    jumpLandSFX: []
+  <FootstepVFXPrefab>k__BackingField: {fileID: 0}
+  <PositionOffset>k__BackingField: {x: 0, y: 0, z: 0}

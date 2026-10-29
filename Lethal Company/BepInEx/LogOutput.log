@@ -102,6 +102,7 @@ System.TypeLoadException: Could not load type of field 'Dusk.Internal.NetworkerP
 System.TypeLoadException: Could not load type of field 'Dusk.Internal.VehicleRegistrationPatch+<>O:<0>__HandlePredicate' (0) due to: Could not load file or assembly 'MMHOOK_Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
 [Info   :DawnLib.DuskMod] Doing patches
 [Info   : LethalLib] LethalLib loaded!!
+[Info   :240_Ashlite] scripts have loaded. THE SUN IS A DEADLY LAZER.
 [Warning:  HarmonyX] AccessTools.GetTypesFromAssembly: assembly itolib, Version=0.9.3.0, Culture=neutral, PublicKeyToken=null => System.Reflection.ReflectionTypeLoadException: Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
 Could not load type of field 'itolib.Compatibility.Moons.BerunahCompatibility+<>c:<>9__0_1' (1) due to: Could not load file or assembly 'LethalLevelLoader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
   at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
